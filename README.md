@@ -1,5 +1,5 @@
-<a href="https://extrapolate.app">
-  <img alt="Extrapolate – See how well you age with AI" src="https://extrapolate.app/api/og">
+<a href="http://supresa.site">
+  <img alt="Supresa – Upscale your Images to Super-Resolution" src="http://supresa.site/api/og">
   <h1 align="center">Supresa</h1>
 </a>
 
@@ -9,10 +9,10 @@
 
 <p align="center">
   <a href="https://twitter.com/zcdeva">
-    <img src="https://img.shields.io/twitter/follow/steventey?style=flat&label=steventey&logo=twitter&color=0bf&logoColor=fff" alt="Steven Tey Twitter follower count" />
+    <img src="https://img.shields.io/twitter/follow/steventey?style=flat&label=zcdeva&logo=twitter&color=0bf&logoColor=fff" alt="Devazc Twitter follower count" />
   </a>
-  <a href="https://github.com/Devazc/supresa-app">
-    <img src="https://img.shields.io/github/stars/steven-tey/extrapolate?label=steven-tey%2Fextrapolate" alt="Extrapolate repo star count" />
+  <a href="https://github.com/Devazc/supresa.app">
+    <img src="https://img.shields.io/github/stars/Devazc/supresa.app?label=Devazc%2Fsupresa.app" alt="Supresa repo star count" />
   </a>
 </p>
 
@@ -26,13 +26,18 @@
 
 ## Introduction
 
-Extrapolate is an app for you to see how well you age by transforming your face with Artificial Intelligence. 100% free and privacy friendly.
-
-https://user-images.githubusercontent.com/28986134/213781048-d215894d-2286-4176-a200-f745b255ecbe.mp4
+Supresa is an app for you to Upscale your Images to Super-Resolution with Artificial Intelligence. 100% free and privacy friendly.
 
 ## Features
 
-- 3s GIF of your face as it ages through time 🧓
+### REAL-ESRGAN
+- Real-ESRGAN with optional face correction and adjustable upscale
+
+### Run time and cost
+- Predictions run on Nvidia T4 GPU hardware. Predictions typically complete within 8 seconds.
+
+### Readme
+- This is the latest version of Real-ESRGAN with GFPGAN and outscale options exposed.
 - Store & retrieve photos from [Cloudflare R2](https://www.cloudflare.com/lp/pg-r2/) using Workers
 - Photos auto-delete after 24 hours (via [Upstash](https://upstash.com) qStash)
 
@@ -54,7 +59,7 @@ Note that you'll need to:
 2. Create a [Cloudflare Worker](https://workers.cloudflare.com/) using the code snippet below.
 3. Bind your worker to your R2 instance under **Settings > R2 Bucket Bindings**.
 4. For extra security, set an `AUTH_KEY_SECRET` variable under **Settings > Environment Variables** (you can generate a random secret [here](https://generate-secret.vercel.app/)).
-5. Replace all instances of `images.extrapolate.workers.dev` in the codebase with your Cloudflare Worker endpoint.
+5. Replace all instances of `images.supresa.workers.dev` in the codebase with your Cloudflare Worker endpoint.
 
 <details>
 <summary>Cloudflare Worker Code</summary>
@@ -124,7 +129,7 @@ export default {
 
 ## Author
 
-- Deva Chandragiri ([@steventey](https://twitter.com/zcdeva))
+- Deva Chandragiri ([@Devazc](https://twitter.com/zcdeva))
 
 ## Source
 
