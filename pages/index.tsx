@@ -32,29 +32,29 @@ export default function Home({ count }: { count: number }) {
       >
         <motion.a
           variants={FADE_DOWN_ANIMATION_VARIANTS}
-          href="https://twitter.com/steventey/status/1616505632001232896"
+          href="https://twitter.com/zcdeva"
           target="_blank"
           rel="noreferrer"
           className="mx-auto mb-5 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full bg-blue-100 px-7 py-2 transition-colors hover:bg-blue-200"
         >
           <Twitter className="h-5 w-5 text-[#1d9bf0]" />
           <p className="text-sm font-semibold text-[#1d9bf0]">
-            Introducing Extrapolate
+            Introducing SUPRESA
           </p>
         </motion.a>
         <motion.h1
           className="bg-gradient-to-br from-black to-stone-500 bg-clip-text text-center font-display text-4xl font-bold tracking-[-0.02em] text-transparent drop-shadow-sm md:text-7xl md:leading-[5rem]"
           variants={FADE_DOWN_ANIMATION_VARIANTS}
         >
-          <Balancer>See how well you age with AI</Balancer>
+          <Balancer>Upscale your Images to Super Resolution</Balancer>
         </motion.h1>
         <motion.p
           className="mt-6 text-center text-gray-500 md:text-xl"
           variants={FADE_DOWN_ANIMATION_VARIANTS}
         >
           <Balancer ratio={0.6}>
-            Curious how you&apos;ll look in 10 years? 20 years? When you&apos;re
-            90? Upload a photo and find out!{" "}
+           With Surpresa, you can easily and quickly improve the quality of your images, even if they are old or low-resolution.
+            Upload a photo and find out!{" "}
             <Tooltip
               content={
                 <div className="flex flex-col items-center justify-center space-y-3 p-10 text-center sm:max-w-xs">
@@ -85,7 +85,7 @@ export default function Home({ count }: { count: number }) {
             onClick={() => setShowUploadModal(true)}
           >
             <Upload className="h-5 w-5 text-white group-hover:text-black" />
-            <p>Upload a photo</p>
+            <p>Upscale an Image</p>
           </button>
           <p className="mt-2 text-center text-sm text-gray-500">
             {nFormatter(count)} photos generated and counting!
@@ -94,7 +94,7 @@ export default function Home({ count }: { count: number }) {
         <PhotoBooth
           input={`${process.env.NEXT_PUBLIC_CLOUDFLARE_WORKER}/input.jpg`}
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAIAAAA7ljmRAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAMklEQVR4nAEnANj/ALjj/4mIh+P+/9Lv/wCn0+xeLxV9cWWUtL0AUz0tKQAAeVU0j4d/y2cTsDiuaawAAAAASUVORK5CYII="
-          output={`${process.env.NEXT_PUBLIC_CLOUDFLARE_WORKER}/output.gif`}
+          output={`${process.env.NEXT_PUBLIC_CLOUDFLARE_WORKER}/output.png`}
         />
       </motion.div>
     </Layout>

@@ -58,7 +58,7 @@ const UploadModal = ({
     <Modal showModal={showUploadModal} setShowModal={setShowUploadModal}>
       <div className="w-full overflow-hidden shadow-xl md:max-w-md md:rounded-2xl md:border md:border-gray-200">
         <div className="flex flex-col items-center justify-center space-y-3 border-b border-gray-200 bg-white px-4 py-6 pt-8 text-center md:px-16">
-          <a href="https://extrapolate.app">
+          <a href="https://supresa.site">
             <Image
               src="/logo.png"
               alt="Logo"
@@ -162,7 +162,7 @@ const UploadModal = ({
                   Drag and drop or click to upload.
                 </p>
                 <p className="mt-2 text-center text-sm text-gray-500">
-                  Recommended: 1:1 square ratio, with a clear view of your face
+                  Recommended: Images with large no.of pixels, Sharp & low noise.
                 </p>
                 <span className="sr-only">Photo upload</span>
               </div>

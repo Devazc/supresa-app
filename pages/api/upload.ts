@@ -39,7 +39,7 @@ export default async function handler(req: NextRequest) {
       }),
       replicate.predictions.create({
         version:
-          "9222a21c181b707209ef12b5e0d7e94c994b58f01c7b2fec075d2e892362f13c",
+          "42fed1c4974146d4d2414e2be2c5277c7fcf05fcc3a73abf41610695738c1d7b",
         input: {
           image,
           target_age: "default",

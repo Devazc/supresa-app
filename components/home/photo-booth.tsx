@@ -137,7 +137,7 @@ export default function PhotoBooth({
               {failed && (
                 <div className="z-10 flex h-full w-full flex-col items-center bg-white pt-[140px] sm:pt-[280px]">
                   <p className="text-sm text-red-600">
-                    Failed to run - could not find face in image. Try another!
+                    Failed to run - could not Pixelate. Try another!
                   </p>
                 </div>
               )}

@@ -1,10 +1,10 @@
 import Head from "next/head";
 
-const DOMAIN = "https://extrapolate.app";
+const DOMAIN = "https://supresa.site";
 
 export default function Meta({
-  title = "Extrapolate - Transform your face with Artificial Intelligence",
-  description = "Extrapolate is an app for you to see how well you age by transforming your face with Artificial Intelligence. 100% free and privacy friendly.",
+  title = "Supresa - Turn Your Photos into New Memories.",
+  description = "Supresa is an app for you to Upscale your images to Super-Resolution. 100% free and privacy friendly.",
   image = `${DOMAIN}/api/og`,
 }: {
   title?: string;
@@ -27,7 +27,7 @@ export default function Meta({
 
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:site" content="@vercel" />
-      <meta name="twitter:creator" content="@steventey" />
+      <meta name="twitter:creator" content="@zcdeva" />
       <meta name="twitter:title" content={title} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />

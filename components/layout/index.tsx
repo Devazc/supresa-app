@@ -38,11 +38,11 @@ export default function Layout({
               height="30"
               className="mr-2 rounded-sm"
             ></Image>
-            <p>Extrapolate</p>
+            <p>Supresa</p>
           </Link>
           <div className="flex items-center space-x-4">
             <a
-              href="https://vercel.com/templates/next.js/extrapolate"
+              href="https://vercel.com/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -58,7 +58,7 @@ export default function Layout({
               </svg>
             </a>
             <a
-              href="https://github.com/steven-tey/extrapolate"
+              href="https://github.com/Devazc/"
               target="_blank"
               rel="noopener noreferrer"
             >

@@ -3,7 +3,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   images: {
-    domains: ["images.extrapolate.workers.dev", "replicate.delivery"],
+    domains: ["images.supresa.workers.dev", "replicate.delivery"],
   },
   async redirects() {
     return [
@@ -14,7 +14,7 @@ const nextConfig = {
       },
       {
         source: "/github",
-        destination: "https://github.com/steven-tey/extrapolate",
+        destination: "https://github.com/Devazc/Supresa.app",
         permanent: false,
       },
       {

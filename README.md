@@ -1,17 +1,17 @@
 <a href="https://extrapolate.app">
   <img alt="Extrapolate – See how well you age with AI" src="https://extrapolate.app/api/og">
-  <h1 align="center">Extrapolate</h1>
+  <h1 align="center">Supresa</h1>
 </a>
 
 <p align="center">
-  See how well you age with AI
+  Upscale your Images to Super-Resolution
 </p>
 
 <p align="center">
-  <a href="https://twitter.com/steventey">
+  <a href="https://twitter.com/zcdeva">
     <img src="https://img.shields.io/twitter/follow/steventey?style=flat&label=steventey&logo=twitter&color=0bf&logoColor=fff" alt="Steven Tey Twitter follower count" />
   </a>
-  <a href="https://github.com/steven-tey/extrapolate">
+  <a href="https://github.com/Devazc/supresa-app">
     <img src="https://img.shields.io/github/stars/steven-tey/extrapolate?label=steven-tey%2Fextrapolate" alt="Extrapolate repo star count" />
   </a>
 </p>
@@ -123,5 +123,9 @@ export default {
 </details>
 
 ## Author
+
+- Deva Chandragiri ([@steventey](https://twitter.com/zcdeva))
+
+## Source
 
 - Steven Tey ([@steventey](https://twitter.com/steventey))
