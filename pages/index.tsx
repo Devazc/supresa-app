@@ -94,7 +94,7 @@ export default function Home({ count }: { count: number }) {
         <PhotoBooth
           input={`${process.env.NEXT_PUBLIC_CLOUDFLARE_WORKER}/input.jpg`}
           blurDataURL="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAADCAIAAAA7ljmRAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAMklEQVR4nAEnANj/ALjj/4mIh+P+/9Lv/wCn0+xeLxV9cWWUtL0AUz0tKQAAeVU0j4d/y2cTsDiuaawAAAAASUVORK5CYII="
-          output={`${process.env.NEXT_PUBLIC_CLOUDFLARE_WORKER}/output.png`}
+          output={`${process.env.NEXT_PUBLIC_CLOUDFLARE_WORKER}/output.jpg`}
         />
       </motion.div>
     </Layout>
