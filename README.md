@@ -9,10 +9,10 @@
 
 <p align="center">
   <a href="https://twitter.com/zcdeva">
-    <img src="https://img.shields.io/twitter/follow/steventey?style=flat&label=zcdeva&logo=twitter&color=0bf&logoColor=fff" alt="Devazc Twitter follower count" />
+    <img src="https://img.shields.io/twitter/follow/zcdeva?style=flat&label=zcdeva&logo=twitter&color=0bf&logoColor=fff" alt="Devazc Twitter follower count" />
   </a>
   <a href="https://github.com/Devazc/supresa.app">
-    <img src="https://img.shields.io/github/stars/Devazc/supresa.app?label=Devazc%2Fsupresa.app" alt="Supresa repo star count" />
+    <img src="https://img.shields.io/github/stars/Devazc/supresa.app?label=Devazc%2Fsupresa-app" alt="Supresa repo star count" />
   </a>
 </p>
 
