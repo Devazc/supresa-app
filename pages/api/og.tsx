@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { ImageResponse } from "@vercel/og";
 import { NextRequest } from "next/server";
 
@@ -39,7 +38,7 @@ export default async function handler(req: NextRequest) {
         <h1
           style={{
             fontSize: "100px",
-            fontFamily: "ClashDisplay-Semibold",
+            fontFamily: "SF Pro",
             background:
               "linear-gradient(to bottom right, #000000 21.66%, #78716c 86.47%)",
             backgroundClip: "text",
@@ -52,8 +51,8 @@ export default async function handler(req: NextRequest) {
       </div>
     ),
     {
-      width: 1200,
-      height: 630,
+      width: 600,
+      height: 315,
       fonts: [
         {
           name: "SF Pro",
